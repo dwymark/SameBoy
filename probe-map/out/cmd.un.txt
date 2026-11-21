@@ -1,0 +1,10 @@
+Type 'help' to list the available debugger commands.
+  ->0000: LD sp, $fffe
+    0003: NOP
+    0004: NOP
+    0005: NOP
+    0006: NOP
+@@> un
+No undo state available
+@@end total_ticks=24 done=1
+@@state size=50692 fnv=28ba33e2 pc=0003 af=0000 bc=0000 de=0000 hl=0000 sp=fffe vblanks=0

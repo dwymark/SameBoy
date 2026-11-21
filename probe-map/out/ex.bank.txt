@@ -1,0 +1,36 @@
+Type 'help' to list the available debugger commands.
+  ->0000: LD sp, $fffe
+    0003: NOP
+    0004: NOP
+    0005: NOP
+    0006: NOP
+@@> !frames 3
+  ->0040: JP $0320
+    0043: NOP
+    0044: NOP
+    0045: NOP
+    0046: NOP
+@@> cartridge
+No cartridge RAM
+MBC5
+Current mapped ROM bank: 2
+@@> print [$4150]
+=$b2
+@@> print [1:$4150]
+=$b1
+@@> print [2:$4150]
+=$b2
+@@> print [3:$4150]
+=$b3
+@@> print [0:$4150]
+=$b2
+@@> print [$0150]
+=$f3
+@@> print 1:$4000
+=$01:$4000
+@@> print 1:$4000+1
+=$01:$4001
+@@> print 1:$4000-1:$3000
+=$1000
+@@end total_ticks=414600 done=1
+@@state size=50712 fnv=6202445b pc=0320 af=0300 bc=4207 de=0000 hl=c001 sp=fffc vblanks=3

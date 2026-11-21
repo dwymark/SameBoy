@@ -1,0 +1,16 @@
+Type 'help' to list the available debugger commands.
+  ->0000: LD sp, $fffe
+    0003: NOP
+    0004: NOP
+    0005: NOP
+    0006: NOP
+@@> !frames 60
+  ->0172: NOP
+    0173: JR $0167
+    0175: NOP
+    0176: NOP
+    0177: NOP
+@@> !state
+@@state size=83460 fnv=2546ccff pc=0172 af=3c00 bc=4207 de=0000 hl=c001 sp=fffe vblanks=60
+@@end total_ticks=8420112 done=1
+@@state size=83460 fnv=445e0f87 pc=0040 af=3c00 bc=4207 de=0000 hl=c001 sp=fffc vblanks=60

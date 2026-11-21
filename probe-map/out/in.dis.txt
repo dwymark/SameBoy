@@ -1,0 +1,18 @@
+Type 'help' to list the available debugger commands.
+  ->0000: LD sp, $fffe
+    0003: NOP
+    0004: NOP
+    0005: NOP
+    0006: NOP
+@@> disassemble/4 func1
+func1:
+    0200 <+000>: LD hl, a ; =$c001
+    0203 <+003>: INC [hl]
+    0204 <+004>: CALL func2 ; =$0210
+    0207 <+007>: RET
+@@> disassemble/3 $150
+    0150: DI
+    0151: LD sp, $fffe
+    0154: XOR a
+@@end total_ticks=24 done=1
+@@state size=50692 fnv=0bf91cf3 pc=0003 af=0000 bc=0000 de=0000 hl=0000 sp=fffe vblanks=0

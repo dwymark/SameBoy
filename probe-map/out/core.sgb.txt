@@ -1,0 +1,9 @@
+@@model=004 cgb=0 sgb=1 state_size=126341 alloc=125232
+@@run2000 total=456000 hist=63:2000,
+@@run_frame_ns=26539,26539,26539,26539,26539,26539,
+@@frames60 vblanks=60 ns_sum=1592340 execs=0
+@@pixels fnv=92bc8432
+@@state size=126341 fnv=e3483e51 pc=0000 af=0000 bc=0000 de=0000 hl=0000 sp=0000 vblanks=63
+@@eval [$c000] ret=0 value=198 bank=ffff
+Unknown register or symbol: nosuchsym
+@@eval nosuchsym ret=1 value=0 bank=ffff

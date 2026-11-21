@@ -1,0 +1,23 @@
+Type 'help' to list the available debugger commands.
+  ->0000: LD sp, $fffe
+    0003: NOP
+    0004: NOP
+    0005: NOP
+    0006: NOP
+@@> softbreak on
+@@> c
+  ->0213: LD c, $07
+    0215: RET
+    0216: NOP
+    0217: NOP
+    0218: NOP
+@@> registers
+AF  = $0100 (----)
+BC  = $4200
+DE  = $0000
+HL  = $c001
+SP  = $fffa
+PC  = $0213
+IME = Enabled
+@@end total_ticks=2576 done=1
+@@state size=50692 fnv=5739217f pc=0215 af=0100 bc=4207 de=0000 hl=c001 sp=fffa vblanks=0

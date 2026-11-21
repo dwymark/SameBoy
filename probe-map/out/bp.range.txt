@@ -1,0 +1,20 @@
+Type 'help' to list the available debugger commands.
+  ->0000: LD sp, $fffe
+    0003: NOP
+    0004: NOP
+    0005: NOP
+    0006: NOP
+@@> b $210 to $212
+Breakpoint 1 set at $0210 - $0212
+@@> b $167 to $168 inclusive
+Breakpoint 2 set at $0167
+@@> b $300 to $305 inclusive
+Breakpoint 3 set at $0300 - $0305 (inclusive)
+@@> list
+3 breakpoint(s) set:
+ 1. $0210 - $0212
+ 2. $0167 (inclusive)
+ 3. $0300 - $0305 (inclusive)
+No watchpoints set.
+@@end total_ticks=24 done=1
+@@state size=50692 fnv=28ba33e2 pc=0003 af=0000 bc=0000 de=0000 hl=0000 sp=fffe vblanks=0

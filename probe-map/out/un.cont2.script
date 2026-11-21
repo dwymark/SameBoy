@@ -1,0 +1,4 @@
+!frames 3
+print 1
+undo
+registers

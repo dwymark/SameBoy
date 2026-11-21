@@ -1,0 +1,6 @@
+@@noboot ff50=fe mem0040=00 pc=04d7 af=0100
+@@bootcb after_set=1 after_reset1=2 after_reset2=3
+@@samples60 samples=48179 ticks=8420064 clock_rate=4194304
+@@modelswap rc=0 model_after=203
+The save state is for a different Game Boy model. Try changing the emulated model.
+@@cgb_into_dmg rc=22 model_after=002

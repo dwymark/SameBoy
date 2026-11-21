@@ -1,0 +1,5 @@
+!frames 3
+print [$c000]
+undo
+print [$c000]
+registers

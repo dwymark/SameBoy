@@ -1,0 +1,41 @@
+Type 'help' to list the available debugger commands.
+  ->0000: LD sp, $fffe
+    0003: NOP
+    0004: NOP
+    0005: NOP
+    0006: NOP
+@@> !frames 3
+  ->0040: JP $0320
+    0043: NOP
+    0044: NOP
+    0045: NOP
+    0046: NOP
+@@> lcd
+LCDC:
+    LCD enabled: Enabled
+    Background and Window: Enabled
+    Objects: Disabled
+    Object size: 8x8
+    Background tilemap: $9800
+    Background and Window Tileset: $8000
+    Window: Disabled
+    Window tilemap: $9800
+
+STAT:
+    Current mode: Mode 1, V-Blank
+    LYC flag: Off
+    H-Blank interrupt: Disabled
+    V-Blank interrupt: Disabled
+    OAM interrupt: Disabled
+    LYC interrupt: Disabled
+
+Current line: 144
+Current state: Sleeping (428 cycles to next event)
+LY: 144
+LYC: 0
+Window position: -7, 0
+Interrupt line: Off
+Background shifter size: 8
+Background fetcher state: Tile (1/2)
+@@end total_ticks=414600 done=1
+@@state size=50692 fnv=3affd074 pc=0320 af=0300 bc=4207 de=0000 hl=c001 sp=fffc vblanks=3

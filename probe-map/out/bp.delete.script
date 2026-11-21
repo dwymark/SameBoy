@@ -1,0 +1,7 @@
+b $200
+b $210
+delete 1
+b $167
+list
+delete 9
+delete x

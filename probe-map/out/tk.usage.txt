@@ -1,0 +1,20 @@
+Type 'help' to list the available debugger commands.
+  ->0000: LD sp, $fffe
+    0003: NOP
+    0004: NOP
+    0005: NOP
+    0006: NOP
+@@> usage
+CPU usage (last frame): N/A
+CPU usage (last 60 frames): N/A
+@@> !frames 5
+  ->0040: JP $0320
+    0043: NOP
+    0044: NOP
+    0045: NOP
+    0046: NOP
+@@> usage
+CPU usage (last frame): 0.42%
+CPU usage (last 60 frames): N/A
+@@end total_ticks=695496 done=1
+@@state size=50692 fnv=2bc9523a pc=0320 af=0500 bc=4207 de=0000 hl=c001 sp=fffc vblanks=5

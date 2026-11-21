@@ -1,0 +1,5 @@
+watch $c000
+print [$c000] = 1
+list
+!frames 1
+registers

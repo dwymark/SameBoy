@@ -1,0 +1,3 @@
+watch/r $c000
+c
+registers

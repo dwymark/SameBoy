@@ -1,0 +1,30 @@
+Type 'help' to list the available debugger commands.
+  ->0000: LD sp, $fffe
+    0003: NOP
+    0004: NOP
+    0005: NOP
+    0006: NOP
+@@> watch $c000 if new == 3
+Watchpoint 1 set at $c000, write-only
+@@> c
+Watchpoint 1: [$c000] = $03
+  ->016e: CALL $0200
+    0171: HALT
+    0172: NOP
+    0173: JR $0167
+    0175: NOP
+@@> print [$c000]
+=$3
+@@> watch $c001 if old == 1
+Watchpoint 2 set at $c001, write-only
+@@> c
+Watchpoint 2: [$c001] = $02
+  ->0204: CALL $0210
+    0207: RET
+    0208: NOP
+    0209: NOP
+    020a: NOP
+@@> print [$c001]
+=$2
+@@end total_ticks=36088800 done=1
+@@state size=50692 fnv=5ef36d80 pc=0210 af=0200 bc=4207 de=0000 hl=c001 sp=fffa vblanks=257

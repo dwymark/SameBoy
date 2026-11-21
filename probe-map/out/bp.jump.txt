@@ -1,0 +1,29 @@
+Type 'help' to list the available debugger commands.
+  ->0000: LD sp, $fffe
+    0003: NOP
+    0004: NOP
+    0005: NOP
+    0006: NOP
+@@> b/j $200
+Breakpoint 1 set at $0200
+@@> c
+Jumping to breakpoint 1: $0200
+  ->016e: CALL $0200
+    0171: HALT
+    0172: NOP
+    0173: JR $0167
+    0175: NOP
+@@> registers
+AF  = $0100 (----)
+BC  = $0000
+DE  = $0000
+HL  = $0000
+SP  = $fffe
+PC  = $016e
+IME = Enabled
+@@> list
+1 breakpoint(s) set:
+ 1. $0200 (Jump to)
+No watchpoints set.
+@@end total_ticks=2440 done=1
+@@state size=50692 fnv=ed1fb4cb pc=0200 af=0100 bc=0000 de=0000 hl=0000 sp=fffc vblanks=0

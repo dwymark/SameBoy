@@ -1,0 +1,54 @@
+Type 'help' to list the available debugger commands.
+  ->0000: LD sp, $fffe
+    0003: NOP
+    0004: NOP
+    0005: NOP
+    0006: NOP
+@@> apu
+Current state: Disabled
+SO1 (left output):  volume 0, no channels
+SO2 (right output): volume 0, no channels
+
+CH1:
+    Current volume: 0, current sample length: 4095 APU ticks (next in 0 ticks)
+    0 256 Hz ticks till next volume decrease (out of 0)
+    Duty cycle 12.5% (_______-), current index 0/8
+    Frequency sweep inactive and increasing
+    Shadow frequency register: 0x000
+    Sweep addend register: 0x000
+
+CH2:
+    Current volume: 0, current sample length: 4095 APU ticks (next in 0 ticks)
+    0 256 Hz ticks till next volume decrease (out of 0)
+    Duty cycle 12.5% (_______-), current index 0/8
+
+CH3:
+    Wave: FB40 FF83 FD00 FF90 D510 FB80 FF05 DD00
+    Current position: 0
+    Volume 100% (right-shifted 0 times)
+    Current sample length: 2047 APU ticks (next in 0 ticks)
+
+CH4:
+    Current volume: 0, current internal counter: 0x0000 (next increase in 0 ticks)
+    0 256 Hz ticks till next volume decrease (out of 0)
+    LFSR in 15-step mode, current value 000 0000 0000 0000 
+
+Reminder: APU ticks are @ 2 MiHz
+@@> apu 1
+
+CH1:
+    Current volume: 0, current sample length: 4095 APU ticks (next in 0 ticks)
+    0 256 Hz ticks till next volume decrease (out of 0)
+    Duty cycle 12.5% (_______-), current index 0/8
+    Frequency sweep inactive and increasing
+    Shadow frequency register: 0x000
+    Sweep addend register: 0x000
+
+
+Reminder: APU ticks are @ 2 MiHz
+@@> apu 9
+Usage: apu [channel (1-4, 5 for NR5x)]
+@@> wave/l
+FB40FF83FD00FF90D510FB80FF05DD00
+@@end total_ticks=24 done=1
+@@state size=50692 fnv=0bf91cf3 pc=0003 af=0000 bc=0000 de=0000 hl=0000 sp=fffe vblanks=0

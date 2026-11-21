@@ -1,0 +1,8 @@
+!frames 3
+!state
+print 1
+!state
+print [$c000]
+!state
+print [$c000]
+!state

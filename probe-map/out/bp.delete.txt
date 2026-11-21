@@ -1,0 +1,25 @@
+Type 'help' to list the available debugger commands.
+  ->0000: LD sp, $fffe
+    0003: NOP
+    0004: NOP
+    0005: NOP
+    0006: NOP
+@@> b $200
+Breakpoint 1 set at $0200
+@@> b $210
+Breakpoint 2 set at $0210
+@@> delete 1
+Breakpoint 1 removed from $0200
+@@> b $167
+Breakpoint 3 set at $0167
+@@> list
+2 breakpoint(s) set:
+ 2. $0210
+ 3. $0167
+No watchpoints set.
+@@> delete 9
+Breakpoint 9 was not found
+@@> delete x
+Usage: delete [<breakpoint id>]
+@@end total_ticks=24 done=1
+@@state size=50692 fnv=28ba33e2 pc=0003 af=0000 bc=0000 de=0000 hl=0000 sp=fffe vblanks=0

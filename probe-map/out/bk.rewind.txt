@@ -1,0 +1,50 @@
+Type 'help' to list the available debugger commands.
+  ->0000: LD sp, $fffe
+    0003: NOP
+    0004: NOP
+    0005: NOP
+    0006: NOP
+@@> !frames 2
+  ->0040: JP $0320
+    0043: NOP
+    0044: NOP
+    0045: NOP
+    0046: NOP
+@@> registers
+AF  = $0200 (----)
+BC  = $4207
+DE  = $0000
+HL  = $c001
+SP  = $fffc
+PC  = $0040
+IME = Disabled
+@@> backstep
+  ->0172: NOP
+    0173: JR $0167
+    0175: NOP
+    0176: NOP
+    0177: NOP
+@@> registers
+AF  = $0200 (----)
+BC  = $4207
+DE  = $0000
+HL  = $c001
+SP  = $fffe
+PC  = $0172
+IME = Enabled
+@@> backstep
+  ->0172: NOP
+    0173: JR $0167
+    0175: NOP
+    0176: NOP
+    0177: NOP
+@@> registers
+AF  = $0200 (----)
+BC  = $4207
+DE  = $0000
+HL  = $c001
+SP  = $fffe
+PC  = $0172
+IME = Enabled
+@@end total_ticks=274128 done=1
+@@state size=50692 fnv=a91aa1f4 pc=0172 af=0200 bc=4207 de=0000 hl=c001 sp=fffe vblanks=2

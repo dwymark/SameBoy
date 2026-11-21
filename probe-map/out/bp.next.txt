@@ -1,0 +1,30 @@
+Type 'help' to list the available debugger commands.
+  ->0000: LD sp, $fffe
+    0003: NOP
+    0004: NOP
+    0005: NOP
+    0006: NOP
+@@> b $16e
+Breakpoint 1 set at $016e
+@@> c
+Breakpoint 1: PC = $016e
+  ->016e: CALL $0200
+    0171: HALT
+    0172: NOP
+    0173: JR $0167
+    0175: NOP
+@@> delete
+@@> next
+  ->0171: HALT
+    0172: NOP
+    0173: JR $0167
+    0175: NOP
+    0176: NOP
+@@> next
+  ->0172: NOP
+    0173: JR $0167
+    0175: NOP
+    0176: NOP
+    0177: NOP
+@@end total_ticks=133872 done=1
+@@state size=50692 fnv=723b72b4 pc=0173 af=0100 bc=4207 de=0000 hl=c001 sp=fffe vblanks=1

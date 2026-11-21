@@ -1,0 +1,1387 @@
+{
+ "base.a": {
+  "exit": 0,
+  "md5": "cfc63aba8bac870ae544bce026f7ce70",
+  "bytes": 444,
+  "stderr": "",
+  "seconds": 0.042,
+  "argv": [
+   "./harness",
+   "dbg",
+   "002",
+   "basic.gb",
+   "out/base.a.script"
+  ],
+  "env": {}
+ },
+ "base.b": {
+  "exit": 0,
+  "md5": "cfc63aba8bac870ae544bce026f7ce70",
+  "bytes": 444,
+  "stderr": "",
+  "seconds": 0.04,
+  "argv": [
+   "./harness",
+   "dbg",
+   "002",
+   "basic.gb",
+   "out/base.b.script"
+  ],
+  "env": {}
+ },
+ "base.idsoft": {
+  "exit": 0,
+  "md5": "f425a4877125a9d183bbca0969d62023",
+  "bytes": 462,
+  "stderr": "",
+  "seconds": 0.041,
+  "argv": [
+   "./harness",
+   "dbg",
+   "002",
+   "basic.gb",
+   "out/base.idsoft.script"
+  ],
+  "env": {}
+ },
+ "base.idprint": {
+  "exit": 0,
+  "md5": "9afe92d4b51979ce7877196dc17ef63f",
+  "bytes": 461,
+  "stderr": "",
+  "seconds": 0.04,
+  "argv": [
+   "./harness",
+   "dbg",
+   "002",
+   "basic.gb",
+   "out/base.idprint.script"
+  ],
+  "env": {}
+ },
+ "cmd.b": {
+  "exit": 0,
+  "md5": "cc1c2c3a52605d4575b569d4697f3ade",
+  "bytes": 347,
+  "stderr": "",
+  "seconds": 0.005,
+  "argv": [
+   "./harness",
+   "dbg",
+   "002",
+   "basic.gb",
+   "out/cmd.b.script"
+  ],
+  "env": {}
+ },
+ "cmd.d": {
+  "exit": 0,
+  "md5": "b8fb51b52a7f5f59bec09648d49c9ede",
+  "bytes": 361,
+  "stderr": "",
+  "seconds": 0.007,
+  "argv": [
+   "./harness",
+   "dbg",
+   "002",
+   "basic.gb",
+   "out/cmd.d.script"
+  ],
+  "env": {}
+ },
+ "cmd.de": {
+  "exit": 0,
+  "md5": "e6730c8a080fedb3fe684d8c41a85031",
+  "bytes": 343,
+  "stderr": "",
+  "seconds": 0.004,
+  "argv": [
+   "./harness",
+   "dbg",
+   "002",
+   "basic.gb",
+   "out/cmd.de.script"
+  ],
+  "env": {}
+ },
+ "cmd.un": {
+  "exit": 0,
+  "md5": "270e3769ea08e94fcadceab3e98f1523",
+  "bytes": 281,
+  "stderr": "",
+  "seconds": 0.005,
+  "argv": [
+   "./harness",
+   "dbg",
+   "002",
+   "basic.gb",
+   "out/cmd.un.script"
+  ],
+  "env": {}
+ },
+ "cmd.re": {
+  "exit": 0,
+  "md5": "f5a3a7891f164fe3e9d4d13684db5c35",
+  "bytes": 438,
+  "stderr": "",
+  "seconds": 0.007,
+  "argv": [
+   "./harness",
+   "dbg",
+   "002",
+   "basic.gb",
+   "out/cmd.re.script"
+  ],
+  "env": {}
+ },
+ "cmd.u": {
+  "exit": 0,
+  "md5": "402d75eadc127b0f3a5fa970a22ab02b",
+  "bytes": 325,
+  "stderr": "",
+  "seconds": 0.005,
+  "argv": [
+   "./harness",
+   "dbg",
+   "002",
+   "basic.gb",
+   "out/cmd.u.script"
+  ],
+  "env": {}
+ },
+ "cmd.alias": {
+  "exit": 0,
+  "md5": "09b2c27ff66e15fab7ed6e5dd0396b35",
+  "bytes": 401,
+  "stderr": "",
+  "seconds": 0.006,
+  "argv": [
+   "./harness",
+   "dbg",
+   "002",
+   "basic.gb",
+   "out/cmd.alias.script"
+  ],
+  "env": {}
+ },
+ "cmd.unknown": {
+  "exit": 0,
+  "md5": "037ec2ed5a4e5d2ccf04cf1f8ae74e08",
+  "bytes": 435,
+  "stderr": "",
+  "seconds": 0.005,
+  "argv": [
+   "./harness",
+   "dbg",
+   "002",
+   "basic.gb",
+   "out/cmd.unknown.script"
+  ],
+  "env": {}
+ },
+ "cmd.help": {
+  "exit": 0,
+  "md5": "bf97297304ce52e6a72a36c10016889c",
+  "bytes": 2878,
+  "stderr": "",
+  "seconds": 0.007,
+  "argv": [
+   "./harness",
+   "dbg",
+   "002",
+   "basic.gb",
+   "out/cmd.help.script"
+  ],
+  "env": {}
+ },
+ "cmd.helpb": {
+  "exit": 0,
+  "md5": "40fd1213c7b409064ab30070e3d9ec0f",
+  "bytes": 800,
+  "stderr": "",
+  "seconds": 0.005,
+  "argv": [
+   "./harness",
+   "dbg",
+   "002",
+   "basic.gb",
+   "out/cmd.helpb.script"
+  ],
+  "env": {}
+ },
+ "cmd.ws": {
+  "exit": 0,
+  "md5": "3cb1262b599af9c5f4d89f1b746fc8fc",
+  "bytes": 290,
+  "stderr": "",
+  "seconds": 0.005,
+  "argv": [
+   "./harness",
+   "dbg",
+   "002",
+   "basic.gb",
+   "out/cmd.ws.script"
+  ],
+  "env": {}
+ },
+ "ex.lit": {
+  "exit": 0,
+  "md5": "04aec6ae1af87ca7eb8a0a1247b2f70f",
+  "bytes": 397,
+  "stderr": "",
+  "seconds": 0.005,
+  "argv": [
+   "./harness",
+   "dbg",
+   "002",
+   "basic.gb",
+   "out/ex.lit.script"
+  ],
+  "env": {}
+ },
+ "ex.prec": {
+  "exit": 0,
+  "md5": "abc1dc039e36107fd5dc86d54b764875",
+  "bytes": 353,
+  "stderr": "",
+  "seconds": 0.011,
+  "argv": [
+   "./harness",
+   "dbg",
+   "002",
+   "basic.gb",
+   "out/ex.prec.script"
+  ],
+  "env": {}
+ },
+ "ex.unary": {
+  "exit": 0,
+  "md5": "e3a2d4ea5c12b979c32668f9b27d4cce",
+  "bytes": 339,
+  "stderr": "",
+  "seconds": 0.007,
+  "argv": [
+   "./harness",
+   "dbg",
+   "002",
+   "basic.gb",
+   "out/ex.unary.script"
+  ],
+  "env": {}
+ },
+ "ex.div0": {
+  "exit": 0,
+  "md5": "deeb81b7ce6e771e76e469ac6c3b75fc",
+  "bytes": 286,
+  "stderr": "",
+  "seconds": 0.005,
+  "argv": [
+   "./harness",
+   "dbg",
+   "002",
+   "basic.gb",
+   "out/ex.div0.script"
+  ],
+  "env": {}
+ },
+ "ex.fmt": {
+  "exit": 0,
+  "md5": "fb4e45b09384cd3a104c0eb3b680fa6b",
+  "bytes": 473,
+  "stderr": "",
+  "seconds": 0.005,
+  "argv": [
+   "./harness",
+   "dbg",
+   "002",
+   "basic.gb",
+   "out/ex.fmt.script"
+  ],
+  "env": {}
+ },
+ "ex.regs": {
+  "exit": 0,
+  "md5": "1baa32d386c2d75e39ec9e0c0b431925",
+  "bytes": 639,
+  "stderr": "",
+  "seconds": 0.04,
+  "argv": [
+   "./harness",
+   "dbg",
+   "002",
+   "basic.gb",
+   "out/ex.regs.script"
+  ],
+  "env": {}
+ },
+ "ex.syms": {
+  "exit": 0,
+  "md5": "0cb7ab82710ea78ff1022e44a58019a7",
+  "bytes": 456,
+  "stderr": "",
+  "seconds": 0.005,
+  "argv": [
+   "./harness",
+   "dbg",
+   "002",
+   "basic.gb",
+   "out/ex.syms.script"
+  ],
+  "env": {
+   "SYMS": "basic.sym"
+  }
+ },
+ "ex.deref": {
+  "exit": 0,
+  "md5": "f8018925af938b63b42124dda9e586e6",
+  "bytes": 503,
+  "stderr": "",
+  "seconds": 0.04,
+  "argv": [
+   "./harness",
+   "dbg",
+   "002",
+   "basic.gb",
+   "out/ex.deref.script"
+  ],
+  "env": {}
+ },
+ "ex.bank": {
+  "exit": 0,
+  "md5": "365dcef62c5d225818a1f5664f38421a",
+  "bytes": 645,
+  "stderr": "",
+  "seconds": 0.04,
+  "argv": [
+   "./harness",
+   "dbg",
+   "002",
+   "mbc5.gb",
+   "out/ex.bank.script"
+  ],
+  "env": {}
+ },
+ "ex.assign": {
+  "exit": 0,
+  "md5": "c94adb55381e8753293bd71fb97ecf4a",
+  "bytes": 589,
+  "stderr": "",
+  "seconds": 0.005,
+  "argv": [
+   "./harness",
+   "dbg",
+   "002",
+   "basic.gb",
+   "out/ex.assign.script"
+  ],
+  "env": {}
+ },
+ "bp.hit": {
+  "exit": 0,
+  "md5": "f20fa96e3768bcfb806298dc9ad3b419",
+  "bytes": 565,
+  "stderr": "",
+  "seconds": 0.005,
+  "argv": [
+   "./harness",
+   "dbg",
+   "002",
+   "basic.gb",
+   "out/bp.hit.script"
+  ],
+  "env": {}
+ },
+ "bp.finish": {
+  "exit": 0,
+  "md5": "718d54e838d2329e3725ecc4e5e491ae",
+  "bytes": 585,
+  "stderr": "",
+  "seconds": 0.006,
+  "argv": [
+   "./harness",
+   "dbg",
+   "002",
+   "basic.gb",
+   "out/bp.finish.script"
+  ],
+  "env": {}
+ },
+ "bp.next": {
+  "exit": 0,
+  "md5": "43e82ab50de595ac8f8a6ad24a38e300",
+  "bytes": 585,
+  "stderr": "",
+  "seconds": 0.006,
+  "argv": [
+   "./harness",
+   "dbg",
+   "002",
+   "basic.gb",
+   "out/bp.next.script"
+  ],
+  "env": {}
+ },
+ "bp.step": {
+  "exit": 0,
+  "md5": "5d7056cd466b8a3770223b33f8565a23",
+  "bytes": 605,
+  "stderr": "",
+  "seconds": 0.006,
+  "argv": [
+   "./harness",
+   "dbg",
+   "002",
+   "basic.gb",
+   "out/bp.step.script"
+  ],
+  "env": {}
+ },
+ "bp.cond": {
+  "exit": 0,
+  "md5": "d055f7dc164ed4b0a771ea47030e1f8f",
+  "bytes": 451,
+  "stderr": "",
+  "seconds": 0.023,
+  "argv": [
+   "./harness",
+   "dbg",
+   "002",
+   "basic.gb",
+   "out/bp.cond.script"
+  ],
+  "env": {}
+ },
+ "bp.condside": {
+  "exit": 0,
+  "md5": "f954f7d2ee7c96a3b6d52a678ae2496d",
+  "bytes": 404,
+  "stderr": "",
+  "seconds": 0.012,
+  "argv": [
+   "./harness",
+   "dbg",
+   "002",
+   "basic.gb",
+   "out/bp.condside.script"
+  ],
+  "env": {}
+ },
+ "bp.range": {
+  "exit": 0,
+  "md5": "7a1d788490fde9d3fd0aa1785f670c2a",
+  "bytes": 553,
+  "stderr": "",
+  "seconds": 0.005,
+  "argv": [
+   "./harness",
+   "dbg",
+   "002",
+   "basic.gb",
+   "out/bp.range.script"
+  ],
+  "env": {}
+ },
+ "bp.rangehit": {
+  "exit": 0,
+  "md5": "cbeb9213dfbce3abbdae128bca606ffd",
+  "bytes": 525,
+  "stderr": "",
+  "seconds": 0.007,
+  "argv": [
+   "./harness",
+   "dbg",
+   "002",
+   "basic.gb",
+   "out/bp.rangehit.script"
+  ],
+  "env": {}
+ },
+ "bp.rangebad": {
+  "exit": 0,
+  "md5": "f4e46ef7543e88c31d80b12b14381f4c",
+  "bytes": 416,
+  "stderr": "",
+  "seconds": 0.005,
+  "argv": [
+   "./harness",
+   "dbg",
+   "002",
+   "basic.gb",
+   "out/bp.rangebad.script"
+  ],
+  "env": {}
+ },
+ "bp.delete": {
+  "exit": 0,
+  "md5": "b285e174ebb468a7675ce5821e51cdab",
+  "bytes": 561,
+  "stderr": "",
+  "seconds": 0.005,
+  "argv": [
+   "./harness",
+   "dbg",
+   "002",
+   "basic.gb",
+   "out/bp.delete.script"
+  ],
+  "env": {}
+ },
+ "bp.jump": {
+  "exit": 0,
+  "md5": "1ba7edc2bd7c95d47811989f976fc91f",
+  "bytes": 588,
+  "stderr": "",
+  "seconds": 0.006,
+  "argv": [
+   "./harness",
+   "dbg",
+   "002",
+   "basic.gb",
+   "out/bp.jump.script"
+  ],
+  "env": {}
+ },
+ "bp.jumpirq": {
+  "exit": 0,
+  "md5": "c22359c7954ebb106f8506a1ec416b62",
+  "bytes": 504,
+  "stderr": "",
+  "seconds": 0.005,
+  "argv": [
+   "./harness",
+   "dbg",
+   "002",
+   "basic.gb",
+   "out/bp.jumpirq.script"
+  ],
+  "env": {}
+ },
+ "bp.soft": {
+  "exit": 0,
+  "md5": "b5270a349d3f1011229038fab15831c9",
+  "bytes": 458,
+  "stderr": "",
+  "seconds": 0.005,
+  "argv": [
+   "./harness",
+   "dbg",
+   "002",
+   "basic.gb",
+   "out/bp.soft.script"
+  ],
+  "env": {}
+ },
+ "bp.softoff": {
+  "exit": 0,
+  "md5": "fb2ee1ad4e16d0f2d19f50b8e15b585c",
+  "bytes": 451,
+  "stderr": "",
+  "seconds": 0.04,
+  "argv": [
+   "./harness",
+   "dbg",
+   "002",
+   "basic.gb",
+   "out/bp.softoff.script"
+  ],
+  "env": {}
+ },
+ "bp.bank": {
+  "exit": 0,
+  "md5": "13a11a8b4c89b186665d2cec53ea14f5",
+  "bytes": 524,
+  "stderr": "",
+  "seconds": 0.005,
+  "argv": [
+   "./harness",
+   "dbg",
+   "002",
+   "mbc5.gb",
+   "out/bp.bank.script"
+  ],
+  "env": {}
+ },
+ "bp.bankmiss": {
+  "exit": 0,
+  "md5": "176da880e0df7d7cd4f9b6237375c789",
+  "bytes": 495,
+  "stderr": "",
+  "seconds": 0.04,
+  "argv": [
+   "./harness",
+   "dbg",
+   "002",
+   "mbc5.gb",
+   "out/bp.bankmiss.script"
+  ],
+  "env": {}
+ },
+ "wp.write": {
+  "exit": 0,
+  "md5": "a3ab298e5d0329238d550d2e8d6e20d9",
+  "bytes": 669,
+  "stderr": "",
+  "seconds": 0.006,
+  "argv": [
+   "./harness",
+   "dbg",
+   "002",
+   "basic.gb",
+   "out/wp.write.script"
+  ],
+  "env": {}
+ },
+ "wp.read": {
+  "exit": 0,
+  "md5": "3a1b95370ab2654b56b9d755e5ed193f",
+  "bytes": 532,
+  "stderr": "",
+  "seconds": 0.005,
+  "argv": [
+   "./harness",
+   "dbg",
+   "002",
+   "basic.gb",
+   "out/wp.read.script"
+  ],
+  "env": {}
+ },
+ "wp.cond": {
+  "exit": 0,
+  "md5": "19319156a8cb7b0faff1e09115b666ef",
+  "bytes": 662,
+  "stderr": "",
+  "seconds": 4.293,
+  "argv": [
+   "./harness",
+   "dbg",
+   "002",
+   "basic.gb",
+   "out/wp.cond.script"
+  ],
+  "env": {}
+ },
+ "wp.bogus": {
+  "exit": 0,
+  "md5": "9d9ed9a6dcd1b598f9a8933af5f7ee9b",
+  "bytes": 430,
+  "stderr": "",
+  "seconds": 0.005,
+  "argv": [
+   "./harness",
+   "dbg",
+   "002",
+   "basic.gb",
+   "out/wp.bogus.script"
+  ],
+  "env": {}
+ },
+ "wp.bogus2": {
+  "exit": 0,
+  "md5": "4a9a258fe45e09943fd803a43667b514",
+  "bytes": 351,
+  "stderr": "",
+  "seconds": 0.005,
+  "argv": [
+   "./harness",
+   "dbg",
+   "002",
+   "basic.gb",
+   "out/wp.bogus2.script"
+  ],
+  "env": {}
+ },
+ "wp.dbgwrite": {
+  "exit": 0,
+  "md5": "f638cd53662be5088d305a66d3e9b8fb",
+  "bytes": 658,
+  "stderr": "",
+  "seconds": 0.005,
+  "argv": [
+   "./harness",
+   "dbg",
+   "002",
+   "basic.gb",
+   "out/wp.dbgwrite.script"
+  ],
+  "env": {}
+ },
+ "wp.mods": {
+  "exit": 0,
+  "md5": "5df2ba85bcac6807b8ce4e687f4e6347",
+  "bytes": 668,
+  "stderr": "",
+  "seconds": 0.007,
+  "argv": [
+   "./harness",
+   "dbg",
+   "002",
+   "basic.gb",
+   "out/wp.mods.script"
+  ],
+  "env": {}
+ },
+ "un.redo": {
+  "exit": 0,
+  "md5": "c6b9079f01b05490fb5ebfd98b3a05bb",
+  "bytes": 703,
+  "stderr": "",
+  "seconds": 0.005,
+  "argv": [
+   "./harness",
+   "dbg",
+   "002",
+   "basic.gb",
+   "out/un.redo.script"
+  ],
+  "env": {}
+ },
+ "un.cont": {
+  "exit": 0,
+  "md5": "83605c4836b12c29161fe6665de2279b",
+  "bytes": 532,
+  "stderr": "",
+  "seconds": 0.042,
+  "argv": [
+   "./harness",
+   "dbg",
+   "002",
+   "basic.gb",
+   "out/un.cont.script"
+  ],
+  "env": {}
+ },
+ "tk.frame": {
+  "exit": 0,
+  "md5": "609e340aa54be7935382c931912eba37",
+  "bytes": 758,
+  "stderr": "",
+  "seconds": 0.024,
+  "argv": [
+   "./harness",
+   "dbg",
+   "002",
+   "basic.gb",
+   "out/tk.frame.script"
+  ],
+  "env": {}
+ },
+ "tk.framecgb": {
+  "exit": 0,
+  "md5": "c467ca6a252d565d5292c4bd22d96c7d",
+  "bytes": 683,
+  "stderr": "",
+  "seconds": 0.023,
+  "argv": [
+   "./harness",
+   "dbg",
+   "205",
+   "basic.gb",
+   "out/tk.framecgb.script"
+  ],
+  "env": {}
+ },
+ "tk.usage": {
+  "exit": 0,
+  "md5": "666e242d61c38760b6e30f468b7dc259",
+  "bytes": 485,
+  "stderr": "",
+  "seconds": 0.073,
+  "argv": [
+   "./harness",
+   "dbg",
+   "002",
+   "basic.gb",
+   "out/tk.usage.script"
+  ],
+  "env": {}
+ },
+ "bk.norewind": {
+  "exit": 0,
+  "md5": "90e792e632d5e2cc83bb9ad5edd90839",
+  "bytes": 397,
+  "stderr": "",
+  "seconds": 0.023,
+  "argv": [
+   "./harness",
+   "dbg",
+   "002",
+   "basic.gb",
+   "out/bk.norewind.script"
+  ],
+  "env": {}
+ },
+ "bk.rewind": {
+  "exit": 0,
+  "md5": "207f4c78855e958bd975cc49f4a0489c",
+  "bytes": 841,
+  "stderr": "",
+  "seconds": 0.027,
+  "argv": [
+   "./harness",
+   "dbg",
+   "002",
+   "basic.gb",
+   "out/bk.rewind.script"
+  ],
+  "env": {
+   "REWIND": "10"
+  }
+ },
+ "in.x": {
+  "exit": 0,
+  "md5": "dcb1b3796e5e61fc4c2d98663a843121",
+  "bytes": 588,
+  "stderr": "",
+  "seconds": 0.005,
+  "argv": [
+   "./harness",
+   "dbg",
+   "002",
+   "basic.gb",
+   "out/in.x.script"
+  ],
+  "env": {}
+ },
+ "in.dis": {
+  "exit": 0,
+  "md5": "4f23b3dd9cccac241b34f565687df150",
+  "bytes": 475,
+  "stderr": "",
+  "seconds": 0.005,
+  "argv": [
+   "./harness",
+   "dbg",
+   "002",
+   "basic.gb",
+   "out/in.dis.script"
+  ],
+  "env": {
+   "SYMS": "basic.sym"
+  }
+ },
+ "in.cart": {
+  "exit": 0,
+  "md5": "07aac6d499799aa76b133fed9062bf6b",
+  "bytes": 288,
+  "stderr": "",
+  "seconds": 0.006,
+  "argv": [
+   "./harness",
+   "dbg",
+   "002",
+   "basic.gb",
+   "out/in.cart.script"
+  ],
+  "env": {}
+ },
+ "in.cart5": {
+  "exit": 0,
+  "md5": "973aab2ec185deaf782b86da217501d5",
+  "bytes": 406,
+  "stderr": "",
+  "seconds": 0.041,
+  "argv": [
+   "./harness",
+   "dbg",
+   "002",
+   "mbc5.gb",
+   "out/in.cart5.script"
+  ],
+  "env": {}
+ },
+ "in.lcd": {
+  "exit": 0,
+  "md5": "7cea3ea3329b3ba2ab66ffd2438f7b6f",
+  "bytes": 949,
+  "stderr": "",
+  "seconds": 0.04,
+  "argv": [
+   "./harness",
+   "dbg",
+   "002",
+   "basic.gb",
+   "out/in.lcd.script"
+  ],
+  "env": {}
+ },
+ "in.apu": {
+  "exit": 0,
+  "md5": "cf64f0fb4270e59989ff38713e0e8188",
+  "bytes": 1727,
+  "stderr": "",
+  "seconds": 0.005,
+  "argv": [
+   "./harness",
+   "dbg",
+   "002",
+   "basic.gb",
+   "out/in.apu.script"
+  ],
+  "env": {}
+ },
+ "in.pal": {
+  "exit": 0,
+  "md5": "ef13c8476711564772e2592cc9e6fac1",
+  "bytes": 287,
+  "stderr": "",
+  "seconds": 0.005,
+  "argv": [
+   "./harness",
+   "dbg",
+   "002",
+   "basic.gb",
+   "out/in.pal.script"
+  ],
+  "env": {}
+ },
+ "in.palcgb": {
+  "exit": 0,
+  "md5": "475b3897b46577c6175695d995cc4ad7",
+  "bytes": 639,
+  "stderr": "",
+  "seconds": 0.005,
+  "argv": [
+   "./harness",
+   "dbg",
+   "205",
+   "basic.gb",
+   "out/in.palcgb.script"
+  ],
+  "env": {}
+ },
+ "in.dma": {
+  "exit": 0,
+  "md5": "eab139af02e07941509c7ce6a72214f1",
+  "bytes": 274,
+  "stderr": "",
+  "seconds": 0.005,
+  "argv": [
+   "./harness",
+   "dbg",
+   "002",
+   "basic.gb",
+   "out/in.dma.script"
+  ],
+  "env": {}
+ },
+ "in.reset": {
+  "exit": 0,
+  "md5": "4249ecf5cff53605028001a5a8196cb6",
+  "bytes": 676,
+  "stderr": "",
+  "seconds": 0.04,
+  "argv": [
+   "./harness",
+   "dbg",
+   "002",
+   "basic.gb",
+   "out/in.reset.script"
+  ],
+  "env": {}
+ },
+ "core.dmg": {
+  "exit": 0,
+  "md5": "1ec2d64ab253ffc0e337391847fa598a",
+  "bytes": 489,
+  "stderr": "",
+  "seconds": 0.051,
+  "argv": [
+   "./harness",
+   "core",
+   "002",
+   "basic.gb"
+  ],
+  "env": {}
+ },
+ "core.mgb": {
+  "exit": 0,
+  "md5": "e74d139256fc97f0bbfcfaf9462a3de9",
+  "bytes": 489,
+  "stderr": "",
+  "seconds": 0.052,
+  "argv": [
+   "./harness",
+   "core",
+   "100",
+   "basic.gb"
+  ],
+  "env": {}
+ },
+ "core.sgb": {
+  "exit": 0,
+  "md5": "4cbdb41b67bed7723506cb53a4cd8b29",
+  "bytes": 423,
+  "stderr": "",
+  "seconds": 0.051,
+  "argv": [
+   "./harness",
+   "core",
+   "004",
+   "basic.gb"
+  ],
+  "env": {}
+ },
+ "core.sgbnosfc": {
+  "exit": 0,
+  "md5": "c74dca567607225b6dfd0174eec790e8",
+  "bytes": 482,
+  "stderr": "",
+  "seconds": 0.069,
+  "argv": [
+   "./harness",
+   "core",
+   "084",
+   "basic.gb"
+  ],
+  "env": {}
+ },
+ "core.cgb0": {
+  "exit": 0,
+  "md5": "375f90e1d99962de56576288c7438071",
+  "bytes": 466,
+  "stderr": "",
+  "seconds": 0.05,
+  "argv": [
+   "./harness",
+   "core",
+   "200",
+   "basic.gb"
+  ],
+  "env": {}
+ },
+ "core.cgbe": {
+  "exit": 0,
+  "md5": "1f880745694f93b3a76e682ac3f2115a",
+  "bytes": 466,
+  "stderr": "",
+  "seconds": 0.036,
+  "argv": [
+   "./harness",
+   "core",
+   "205",
+   "basic.gb"
+  ],
+  "env": {}
+ },
+ "core.agb": {
+  "exit": 0,
+  "md5": "f29d18632b16c8047672c030b6b64d81",
+  "bytes": 466,
+  "stderr": "",
+  "seconds": 0.035,
+  "argv": [
+   "./harness",
+   "core",
+   "207",
+   "basic.gb"
+  ],
+  "env": {}
+ },
+ "core.stdin": {
+  "exit": 0,
+  "md5": "fc75b85f08bbfc6cab834e0e496cdeda",
+  "bytes": 494,
+  "stderr": "",
+  "seconds": 0.053,
+  "argv": [
+   "./harness",
+   "core",
+   "002",
+   "basic.gb"
+  ],
+  "env": {}
+ },
+ "core.stdinint": {
+  "exit": 0,
+  "md5": "8fd27311c9e33b52e09162e5ff5180d8",
+  "bytes": 440,
+  "stderr": "",
+  "seconds": 0.048,
+  "argv": [
+   "./harness",
+   "core",
+   "002",
+   "basic.gb"
+  ],
+  "env": {}
+ },
+ "un.cont2": {
+  "exit": 0,
+  "md5": "b30c48e1fb95c0da6f832927bd0aeb20",
+  "bytes": 586,
+  "stderr": "",
+  "seconds": 0.04,
+  "argv": [
+   "./harness",
+   "dbg",
+   "002",
+   "basic.gb",
+   "out/un.cont2.script"
+  ],
+  "env": {}
+ },
+ "un.printmem": {
+  "exit": 0,
+  "md5": "594a528ef97ec92fb6b7e778736d5982",
+  "bytes": 807,
+  "stderr": "",
+  "seconds": 0.042,
+  "argv": [
+   "./harness",
+   "dbg",
+   "002",
+   "basic.gb",
+   "out/un.printmem.script"
+  ],
+  "env": {}
+ },
+ "bk.step": {
+  "exit": 0,
+  "md5": "e87d49afb96f268b138440dd64a90d20",
+  "bytes": 828,
+  "stderr": "",
+  "seconds": 0.005,
+  "argv": [
+   "./harness",
+   "dbg",
+   "002",
+   "basic.gb",
+   "out/bk.step.script"
+  ],
+  "env": {
+   "REWIND": "10"
+  }
+ },
+ "in.palcgb2": {
+  "exit": 0,
+  "md5": "781d8481c27790449b19f0b9aba97953",
+  "bytes": 639,
+  "stderr": "",
+  "seconds": 0.006,
+  "argv": [
+   "./harness",
+   "dbg",
+   "205",
+   "basic.gb",
+   "out/in.palcgb2.script"
+  ],
+  "env": {}
+ },
+ "ex.io": {
+  "exit": 0,
+  "md5": "45753d10dbc706be97028111a0f265e0",
+  "bytes": 457,
+  "stderr": "",
+  "seconds": 0.039,
+  "argv": [
+   "./harness",
+   "dbg",
+   "002",
+   "basic.gb",
+   "out/ex.io.script"
+  ],
+  "env": {}
+ },
+ "cmd.state": {
+  "exit": 0,
+  "md5": "9338e07029de7f933c5e53a47bfecff6",
+  "bytes": 381,
+  "stderr": "",
+  "seconds": 0.005,
+  "argv": [
+   "./harness",
+   "dbg",
+   "002",
+   "basic.gb",
+   "out/cmd.state.script"
+  ],
+  "env": {}
+ },
+ "pace.60": {
+  "exit": 0,
+  "md5": "4808ef94781dc5bd50dd89e2ef7cfa2f",
+  "bytes": 448,
+  "stderr": "",
+  "seconds": 0.994,
+  "argv": [
+   "./harness",
+   "dbg",
+   "002",
+   "basic.gb",
+   "out/pace.60.script"
+  ],
+  "env": {}
+ },
+ "pace.60turbo": {
+  "exit": 0,
+  "md5": "2b0461b4e697dfa5d81389aada7c0e59",
+  "bytes": 450,
+  "stderr": "",
+  "seconds": 1.017,
+  "argv": [
+   "./harness",
+   "dbg",
+   "002",
+   "basic.gb",
+   "out/pace.60turbo.script"
+  ],
+  "env": {
+   "TURBO": "1"
+  }
+ },
+ "pace.60cgb": {
+  "exit": 0,
+  "md5": "0bb635ad89f65807bd5c829bea1e03ae",
+  "bytes": 448,
+  "stderr": "",
+  "seconds": 0.994,
+  "argv": [
+   "./harness",
+   "dbg",
+   "205",
+   "basic.gb",
+   "out/pace.60cgb.script"
+  ],
+  "env": {}
+ },
+ "un.printmem2": {
+  "exit": 0,
+  "md5": "5a6a80bbb88f0dda8213289436b80065",
+  "bytes": 700,
+  "stderr": "",
+  "seconds": 0.039,
+  "argv": [
+   "./harness",
+   "dbg",
+   "002",
+   "basic.gb",
+   "out/un.printmem2.script"
+  ],
+  "env": {}
+ },
+ "bk.step2": {
+  "exit": 0,
+  "md5": "541b5516f1f6036c6f0b69826042d78e",
+  "bytes": 1011,
+  "stderr": "",
+  "seconds": 0.023,
+  "argv": [
+   "./harness",
+   "dbg",
+   "002",
+   "basic.gb",
+   "out/bk.step2.script"
+  ],
+  "env": {
+   "REWIND": "10"
+  }
+ },
+ "seed.a": {
+  "exit": 0,
+  "md5": "aa6cdb548387a07a1f1b36e2b3394708",
+  "bytes": 477,
+  "stderr": "",
+  "seconds": 0.042,
+  "argv": [
+   "./harness",
+   "dbg",
+   "002",
+   "basic.gb",
+   "out/seed.a.script"
+  ],
+  "env": {}
+ },
+ "seed.b": {
+  "exit": 0,
+  "md5": "aa6cdb548387a07a1f1b36e2b3394708",
+  "bytes": 477,
+  "stderr": "",
+  "seconds": 0.04,
+  "argv": [
+   "./harness",
+   "dbg",
+   "002",
+   "basic.gb",
+   "out/seed.b.script"
+  ],
+  "env": {}
+ },
+ "seed.2": {
+  "exit": 0,
+  "md5": "825741f3a128db4b90353e9c27d0aa2e",
+  "bytes": 477,
+  "stderr": "",
+  "seconds": 0.041,
+  "argv": [
+   "./harness",
+   "dbg",
+   "002",
+   "basic.gb",
+   "out/seed.2.script"
+  ],
+  "env": {
+   "SEED": "2"
+  }
+ },
+ "seed.off": {
+  "exit": 0,
+  "md5": "cc0aed9f0990df4516890fca36cb3469",
+  "bytes": 477,
+  "stderr": "",
+  "seconds": 0.042,
+  "argv": [
+   "./harness",
+   "dbg",
+   "002",
+   "basic.gb",
+   "out/seed.off.script"
+  ],
+  "env": {
+   "NORANDOM": "1"
+  }
+ },
+ "core2.dmg": {
+  "exit": 0,
+  "md5": "f38bedda17b7be3f29c24c45a64f1128",
+  "bytes": 307,
+  "stderr": "",
+  "seconds": 0.058,
+  "argv": [
+   "./harness",
+   "core2",
+   "002",
+   "basic.gb"
+  ],
+  "env": {}
+ },
+ "core2.cgbe": {
+  "exit": 0,
+  "md5": "d14da95f825d19bd8f8840e804d2b674",
+  "bytes": 307,
+  "stderr": "",
+  "seconds": 0.045,
+  "argv": [
+   "./harness",
+   "core2",
+   "205",
+   "basic.gb"
+  ],
+  "env": {}
+ },
+ "ex.bankx": {
+  "exit": 0,
+  "md5": "3bb8e0b6d95d82ee570461be70f89d94",
+  "bytes": 459,
+  "stderr": "",
+  "seconds": 0.04,
+  "argv": [
+   "./harness",
+   "dbg",
+   "002",
+   "mbc5.gb",
+   "out/ex.bankx.script"
+  ],
+  "env": {}
+ }
+}

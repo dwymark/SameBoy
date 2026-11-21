@@ -1,0 +1,11 @@
+!frames 3
+registers
+print bc
+print ac
+print sp
+print ap
+print bp
+print pc
+print hc
+print hl
+print al

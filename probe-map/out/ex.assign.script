@@ -1,0 +1,9 @@
+print a = 5
+print bc = $1234
+print h = $c0
+print [$c010] = 7
+print {$c012} = $abcd
+x/4 $c010
+registers
+print 1 = 2
+print a == 5

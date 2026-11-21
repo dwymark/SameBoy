@@ -1,0 +1,12 @@
+Type 'help' to list the available debugger commands.
+  ->0000: LD sp, $fffe
+    0003: NOP
+    0004: NOP
+    0005: NOP
+    0006: NOP
+@@> b $200 to $100
+Breakpoint range end point must be grater than the start point
+@@> b 1:$4000 to 2:$4010
+Breakpoint range start and end points have different banks
+@@end total_ticks=24 done=1
+@@state size=50692 fnv=28ba33e2 pc=0003 af=0000 bc=0000 de=0000 hl=0000 sp=fffe vblanks=0

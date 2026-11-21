@@ -1,0 +1,7 @@
+watch/x $c000
+watch/rw $c000
+watch/wr $c001
+list
+unwatch 1
+unwatch
+list

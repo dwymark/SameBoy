@@ -1,0 +1,6 @@
+watch $c000 if new == 3
+c
+print [$c000]
+watch $c001 if old == 1
+c
+print [$c001]

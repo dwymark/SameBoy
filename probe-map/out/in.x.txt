@@ -1,0 +1,20 @@
+Type 'help' to list the available debugger commands.
+  ->0000: LD sp, $fffe
+    0003: NOP
+    0004: NOP
+    0005: NOP
+    0006: NOP
+@@> x/4 $150
+0150: f3 31 fe ff 
+@@> x/$12 $150
+0150: f3 31 fe ff af ea 00 c0 ea 01 c0 ea 02 c0 3e 01 
+0160: e0 ff 
+@@> x/3s $150
+db $f3, $31, $fe, ; 0150
+@@> x/8s $150
+db $f3, $31, $fe, $ff, $af, $ea, $00, $c0 ; 0150
+@@> x $150
+0150: f3 31 fe ff af ea 00 c0 ea 01 c0 ea 02 c0 3e 01 
+0160: e0 ff 3e 91 e0 40 fb fa 00 c0 3c ea 00 c0 cd 00 
+@@end total_ticks=24 done=1
+@@state size=50692 fnv=0bf91cf3 pc=0003 af=0000 bc=0000 de=0000 hl=0000 sp=fffe vblanks=0

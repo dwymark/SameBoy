@@ -1,0 +1,22 @@
+Type 'help' to list the available debugger commands.
+  ->0000: LD sp, $fffe
+    0003: NOP
+    0004: NOP
+    0005: NOP
+    0006: NOP
+@@> help b
+breakpoint:  Add a new breakpoint at the specified address/expression or range.
+             Ranges are exclusive by default, unless "inclusive" is used. If the
+             j modifier is used, the breakpoint will occur just before jumping
+             to the target.
+
+Usage: breakpoint[/j] <expression> [to <end expression> [inclusive]] [if <condition expression>]
+@@> help x
+examine:     Examine values at address. Use the 's' modifier to output in
+             assembeler syntax.
+
+Usage: examine[/[$]count[s]] <expression>
+
+Aliases: x 
+@@end total_ticks=24 done=1
+@@state size=50692 fnv=28ba33e2 pc=0003 af=0000 bc=0000 de=0000 hl=0000 sp=fffe vblanks=0

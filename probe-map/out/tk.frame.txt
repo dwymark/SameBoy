@@ -1,0 +1,39 @@
+Type 'help' to list the available debugger commands.
+  ->0000: LD sp, $fffe
+    0003: NOP
+    0004: NOP
+    0005: NOP
+    0006: NOP
+@@> ticks
+T-cycles: 0
+M-cycles: 0
+Absolute 8MHz ticks: 0
+Tick count reset.
+@@> !frames 1
+  ->0040: JP $0320
+    0043: NOP
+    0044: NOP
+    0045: NOP
+    0046: NOP
+@@> ticks
+T-cycles: 66836
+M-cycles: 16709
+Absolute 8MHz ticks: 133672
+Tick count reset.
+@@> !frames 1
+  ->0040: JP $0320
+    0043: NOP
+    0044: NOP
+    0045: NOP
+    0046: NOP
+@@> ticks keep
+T-cycles: 70224
+M-cycles: 17556
+Absolute 8MHz ticks: 140448
+@@> ticks
+T-cycles: 70224
+M-cycles: 17556
+Absolute 8MHz ticks: 140448
+Tick count reset.
+@@end total_ticks=274152 done=1
+@@state size=50692 fnv=d907637b pc=0320 af=0200 bc=4207 de=0000 hl=c001 sp=fffc vblanks=2

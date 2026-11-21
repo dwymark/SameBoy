@@ -1,0 +1,10 @@
+00:0167 loop
+00:0200 func1
+00:0210 func2
+00:0320 vblank_handler
+00:c000 counter
+00:c001 a
+00:c002 ac
+01:4000 bank1_start
+02:4000 bank2_start
+; comment line

@@ -1,0 +1,27 @@
+Type 'help' to list the available debugger commands.
+  ->0000: LD sp, $fffe
+    0003: NOP
+    0004: NOP
+    0005: NOP
+    0006: NOP
+@@> palettes
+Background palettes: 
+7c95 deca 751d 16d7 
+a2ed 3d94 7bb6 387f 
+87de f447 cd35 39a5 
+2eb8 3884 2c4d d2fd 
+c088 eb97 260e 2f52 
+5abc f819 b1ce 5840 
+4e2e dc95 a980 c3de 
+40b6 0859 8d9f 667b 
+Object palettes: 
+82ab 4cfb 10fb ce01 
+03c4 df70 c4c3 360d 
+cd94 a467 5ed2 c08b 
+41cb 0f7d 40f8 0893 
+7293 6708 d502 8aa6 
+b98d 5236 b812 be1d 
+fa5f 5696 948e 43c3 
+9086 1b36 dfd9 09fd 
+@@end total_ticks=24 done=1
+@@state size=83460 fnv=f4f871eb pc=0003 af=0000 bc=0000 de=0000 hl=0000 sp=fffe vblanks=0

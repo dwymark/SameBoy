@@ -1,0 +1,60 @@
+Type 'help' to list the available debugger commands.
+  ->0000: LD sp, $fffe
+    0003: NOP
+    0004: NOP
+    0005: NOP
+    0006: NOP
+@@> !frames 2
+  ->0040: JP $0320
+    0043: NOP
+    0044: NOP
+    0045: NOP
+    0046: NOP
+@@> b $213
+Breakpoint 1 set at $0213
+@@> c
+Breakpoint 1: PC = $0213
+  ->0213: LD c, $07
+    0215: RET
+    0216: NOP
+    0217: NOP
+    0218: NOP
+@@> delete
+@@> registers
+AF  = $0300 (----)
+BC  = $4207
+DE  = $0000
+HL  = $c001
+SP  = $fffa
+PC  = $0213
+IME = Enabled
+@@> backstep
+  ->0212: LD b, b
+    0213: LD c, $07
+    0215: RET
+    0216: NOP
+    0217: NOP
+@@> registers
+AF  = $0300 (----)
+BC  = $4207
+DE  = $0000
+HL  = $c001
+SP  = $fffa
+PC  = $0212
+IME = Enabled
+@@> backstep
+  ->0210: LD b, $42
+    0212: LD b, b
+    0213: LD c, $07
+    0215: RET
+    0216: NOP
+@@> registers
+AF  = $0300 (----)
+BC  = $4207
+DE  = $0000
+HL  = $c001
+SP  = $fffa
+PC  = $0210
+IME = Enabled
+@@end total_ticks=274600 done=1
+@@state size=50692 fnv=3d4c39e3 pc=0212 af=0300 bc=4207 de=0000 hl=c001 sp=fffa vblanks=2

@@ -1,0 +1,25 @@
+Type 'help' to list the available debugger commands.
+  ->0000: LD sp, $fffe
+    0003: NOP
+    0004: NOP
+    0005: NOP
+    0006: NOP
+@@> b 0:$200
+Breakpoint 1 set at $00:$0200
+@@> c
+Breakpoint 1: PC = $0200
+  ->0200: LD hl, $c001
+    0203: INC [hl]
+    0204: CALL $0210
+    0207: RET
+    0208: NOP
+@@> registers
+AF  = $0100 (----)
+BC  = $0000
+DE  = $0000
+HL  = $0000
+SP  = $fffc
+PC  = $0200
+IME = Enabled
+@@end total_ticks=2512 done=1
+@@state size=50712 fnv=ee7789be pc=0203 af=0100 bc=0000 de=0000 hl=c001 sp=fffc vblanks=0

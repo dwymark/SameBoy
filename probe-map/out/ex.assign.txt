@@ -1,0 +1,32 @@
+Type 'help' to list the available debugger commands.
+  ->0000: LD sp, $fffe
+    0003: NOP
+    0004: NOP
+    0005: NOP
+    0006: NOP
+@@> print a = 5
+=$5
+@@> print bc = $1234
+=$1234
+@@> print h = $c0
+=$c0
+@@> print [$c010] = 7
+=$7
+@@> print {$c012} = $abcd
+=$abcd
+@@> x/4 $c010
+c010: 07 db cd ab 
+@@> registers
+AF  = $0500 (----)
+BC  = $1234
+DE  = $0000
+HL  = $c000
+SP  = $0000
+PC  = $0000
+IME = Disabled
+@@> print 1 = 2
+Expression is not an lvalue: 1
+@@> print a == 5
+=$1
+@@end total_ticks=24 done=1
+@@state size=50692 fnv=02a40549 pc=0003 af=0500 bc=1234 de=0000 hl=c000 sp=fffe vblanks=0

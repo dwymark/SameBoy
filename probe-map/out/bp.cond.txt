@@ -1,0 +1,19 @@
+Type 'help' to list the available debugger commands.
+  ->0000: LD sp, $fffe
+    0003: NOP
+    0004: NOP
+    0005: NOP
+    0006: NOP
+@@> b $200 if [$c000] == 3
+Breakpoint 1 set at $0200
+@@> c
+Breakpoint 1: PC = $0200
+  ->0200: LD hl, $c001
+    0203: INC [hl]
+    0204: CALL $0210
+    0207: RET
+    0208: NOP
+@@> print [$c000]
+=$3
+@@end total_ticks=274488 done=1
+@@state size=50692 fnv=c0b8d201 pc=0203 af=0300 bc=4207 de=0000 hl=c001 sp=fffc vblanks=2

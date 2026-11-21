@@ -1,0 +1,3 @@
+print $0
+!frames 3
+!state

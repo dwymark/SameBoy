@@ -1,0 +1,6 @@
+!frames 3
+reset quick
+print [$c000]
+reset
+reset reload
+reset bogus

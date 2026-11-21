@@ -1,0 +1,31 @@
+Type 'help' to list the available debugger commands.
+  ->0000: LD sp, $fffe
+    0003: NOP
+    0004: NOP
+    0005: NOP
+    0006: NOP
+@@> watch $c000
+Watchpoint 1 set at $c000, write-only
+@@> print [$c000] = 1
+=$1
+@@> list
+No breakpoints set.
+1 watchpoint(s) set:
+ 1. $c000 (-w)
+@@> !frames 1
+Watchpoint 1: [$c000] = $00
+  ->0158: LD [$c001], a
+    015b: LD [$c002], a
+    015e: LD a, $01
+    0160: LDH [$ff], a
+    0162: LD a, $91
+@@> registers
+AF  = $0080 (---Z)
+BC  = $0000
+DE  = $0000
+HL  = $0000
+SP  = $fffe
+PC  = $0158
+IME = Disabled
+@@end total_ticks=2200 done=1
+@@state size=50692 fnv=3884b7de pc=015b af=0080 bc=0000 de=0000 hl=0000 sp=fffe vblanks=0

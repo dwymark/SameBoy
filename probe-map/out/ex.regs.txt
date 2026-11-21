@@ -1,0 +1,40 @@
+Type 'help' to list the available debugger commands.
+  ->0000: LD sp, $fffe
+    0003: NOP
+    0004: NOP
+    0005: NOP
+    0006: NOP
+@@> !frames 3
+  ->0040: JP $0320
+    0043: NOP
+    0044: NOP
+    0045: NOP
+    0046: NOP
+@@> registers
+AF  = $0300 (----)
+BC  = $4207
+DE  = $0000
+HL  = $c001
+SP  = $fffc
+PC  = $0040
+IME = Disabled
+@@> print bc
+=$4207
+@@> print ac
+=$4207
+@@> print sp
+=$fffc
+@@> print ap
+=$fffc
+@@> print bp
+=$fffc
+@@> print pc
+=$00:$0040
+@@> print hc
+=$00:$0040
+@@> print hl
+=$c001
+@@> print al
+=$c001
+@@end total_ticks=414600 done=1
+@@state size=50692 fnv=954b2bdd pc=0320 af=0300 bc=4207 de=0000 hl=c001 sp=fffc vblanks=3

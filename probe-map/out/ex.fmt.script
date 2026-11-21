@@ -1,0 +1,8 @@
+print/x 255
+print/d $ff
+print/o 8
+print/b 5
+print/b 0
+print/a $c000
+print/xx 1
+print/q 1

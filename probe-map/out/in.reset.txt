@@ -1,0 +1,32 @@
+Type 'help' to list the available debugger commands.
+  ->0000: LD sp, $fffe
+    0003: NOP
+    0004: NOP
+    0005: NOP
+    0006: NOP
+@@> !frames 3
+  ->0040: JP $0320
+    0043: NOP
+    0044: NOP
+    0045: NOP
+    0046: NOP
+@@> reset quick
+  ->0000: LD sp, $fffe
+    0003: NOP
+    0004: NOP
+    0005: NOP
+    0006: NOP
+@@> print [$c000]
+=$3
+@@> reset
+  ->0000: LD sp, $fffe
+    0003: NOP
+    0004: NOP
+    0005: NOP
+    0006: NOP
+@@> reset reload
+ROM reloading via the debugger is not supported in this frontend.
+@@> reset bogus
+Usage: reset [quick|reload]
+@@end total_ticks=414592 done=1
+@@state size=50692 fnv=270ecd95 pc=0003 af=0000 bc=0000 de=0000 hl=0000 sp=fffe vblanks=3

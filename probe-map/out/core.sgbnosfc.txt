@@ -1,0 +1,10 @@
+@@model=084 cgb=0 sgb=1 state_size=50692 alloc=125232
+@@run2000 total=16424 hist=8:1978,16:5,24:7,32:8,48:2,
+@@run_frame_ns=Program is running, use 'interrupt' to stop execution.
+465,465,465,465,465,465,
+@@frames60 vblanks=60 ns_sum=27900 execs=1298
+@@pixels fnv=87529dc5
+@@state size=50692 fnv=8663ea08 pc=0172 af=3c00 bc=4207 de=0000 hl=c001 sp=fffe vblanks=60
+@@eval [$c000] ret=0 value=60 bank=ffff
+Unknown register or symbol: nosuchsym
+@@eval nosuchsym ret=1 value=0 bank=ffff
